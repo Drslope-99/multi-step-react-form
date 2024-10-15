@@ -1,0 +1,12 @@
+.sidebar {
+  grid-row: 1/-1;
+  background: url("../../assets/images/bg-sidebar-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.sidebar__menu {
+  list-style: none;
+}

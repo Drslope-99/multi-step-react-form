@@ -1,0 +1,116 @@
+.plan__heading {
+  color: var(--dark-blue);
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.plan__description {
+  margin-bottom: 2rem;
+  color: var(--gray);
+}
+
+.plan__form {
+  padding-block: 2rem;
+}
+
+.plan__billing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, auto));
+  grid-auto-rows: 18rem;
+  gap: 2rem;
+}
+
+.plan__billing label {
+  border: 0.16rem solid var(--light-gray);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.plan__billing label:hover {
+  border-color: var(--purplish-blue);
+}
+
+.plan__billing .active {
+  border-color: var(--purplish-blue);
+  background-color: var(--magnolia);
+}
+
+.plan__image {
+  width: 4rem;
+  height: 4rem;
+}
+
+.plan__input {
+  appearance: none;
+}
+
+.plan__category {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: var(--dark-blue);
+}
+
+.plan__sub {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.plan__bonus {
+  font-size: 1.1rem;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.plan__toggle {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: var(--magnolia);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+}
+
+.plan__toggle-duration {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.plan__toggle-duration.active {
+  color: var(--dark-blue);
+}
+
+.plan__toggle-btn {
+  margin: 0 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 4rem;
+  height: 2rem;
+  padding: 0.5rem;
+  background-color: var(--dark-blue);
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.plan__toggle-btn input {
+  appearance: none;
+}
+
+.plan__toggle-btn span {
+  position: absolute;
+  display: block;
+  height: 1.2rem;
+  width: 1.2rem;
+  background-color: var(--alabaster);
+  border-radius: 50%;
+  transition: 0.3s transform;
+}
+
+.plan__toggle-btn input:checked + span {
+  transform: translateX(calc(100% + 0.6rem));
+}

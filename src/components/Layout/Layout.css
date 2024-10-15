@@ -1,0 +1,13 @@
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  background-color: var(--white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 65vh minmax(6rem, max-content);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}

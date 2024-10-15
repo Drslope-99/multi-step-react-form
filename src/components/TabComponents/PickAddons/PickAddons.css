@@ -1,0 +1,10 @@
+.addons__heading {
+  font-family: ubuntu bold;
+  font-size: 2.8rem;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.addons__description {
+  font-size: 1.5rem;
+}

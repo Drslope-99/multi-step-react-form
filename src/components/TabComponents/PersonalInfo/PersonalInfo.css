@@ -1,0 +1,58 @@
+/* .info {
+  
+} */
+
+.info__header {
+  color: var(--dark-blue);
+  font-size: 2.8rem;
+}
+
+input::placeholder {
+  color: var(--gray);
+  font-size: 1.5rem;
+}
+
+.info__form {
+  margin-block: 3rem;
+}
+
+.info__form-control {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
+}
+
+.info__form-label {
+  color: var(--dark-blue);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.info__form-error {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--straw-red);
+}
+
+.info__form-input {
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  outline: none;
+  color: var(--dark-blue);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  padding: 1.2rem 2rem;
+  border: 0.18rem solid var(--light-gray);
+  border-radius: 0.5rem;
+}
+
+.info__form-input.error {
+  border-color: var(--straw-red);
+}
+
+.info__form-input:focus {
+  border-color: var(--purplish-blue);
+}
