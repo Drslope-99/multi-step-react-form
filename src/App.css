@@ -55,6 +55,24 @@ body {
 
 @media screen and (max-width: 780px) {
   html {
+    /* font-size: 57%; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
     font-size: 57%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 54%;
   }
 }

@@ -59,7 +59,7 @@ function App() {
   } else if (selected === 2) {
     tabElement = <PickAddons />;
   } else if (selected === 3) {
-    tabElement = <FinishingUp />;
+    tabElement = <FinishingUp clicked={() => selectMenu(1)} />;
   } else {
     tabElement = null;
   }

@@ -11,3 +11,18 @@
   padding: 1.5rem;
   border-radius: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 25rem calc(100vh - 32rem) 7rem;
+    padding: unset;
+  }
+
+  html {
+    font-size: 54%;
+  }
+  .container {
+    background-color: var(--light-blue);
+  }
+}

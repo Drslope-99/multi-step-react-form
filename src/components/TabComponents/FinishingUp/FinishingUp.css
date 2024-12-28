@@ -1,0 +1,59 @@
+.summary__header {
+  color: var(--dark-blue);
+}
+
+.summary__desc {
+  margin-bottom: 3rem;
+}
+
+.summary__section {
+  background-color: var(--alabaster);
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.summary__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item__name.first {
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.item__change {
+  color: inherit;
+}
+
+.item__price {
+  color: var(--dark-blue);
+  font-size: 1.4rem;
+}
+
+.item__price.first {
+  font-weight: 700;
+}
+
+.summary__items:first-child {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid var(--light-gray);
+}
+
+.summary__items:not(:first-child) {
+  margin-bottom: 2rem;
+}
+
+.summary__total {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary__price {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--purplish-blue);
+}

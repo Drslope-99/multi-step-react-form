@@ -2,3 +2,13 @@
   /* background-color: var(--white); */
   padding: 3rem 7rem;
 }
+
+@media screen and (max-width: 500px) {
+  .main {
+    margin-inline: 2rem;
+    padding-inline: 2rem;
+    transform: translateY(-7rem);
+    background-color: var(--white);
+    border-radius: 1rem;
+  }
+}

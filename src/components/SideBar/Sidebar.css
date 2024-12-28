@@ -10,3 +10,18 @@
 .sidebar__menu {
   list-style: none;
 }
+
+@media screen and (max-width: 500px) {
+  .sidebar {
+    grid-row: 1 / 2;
+    border-radius: unset;
+  }
+  .sidebar__menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar__menu li {
+    margin-inline: 2rem;
+  }
+}

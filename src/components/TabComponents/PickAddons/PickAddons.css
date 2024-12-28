@@ -7,4 +7,67 @@
 
 .addons__description {
   font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.addons__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.addons__form label {
+  border: 0.2rem solid var(--light-gray);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.addons__form label.active {
+  border-color: var(--purplish-blue);
+  background-color: var(--light-blue);
+}
+
+.addons__form input {
+  display: inline-block;
+  margin-right: 2rem;
+  accent-color: var(--purplish-blue);
+}
+
+.addons__details {
+  margin-right: auto;
+}
+
+.addons__details h3 {
+  color: var(--dark-blue);
+  font-size: 1.6rem;
+}
+
+.addons__details p {
+  font-weight: 300;
+}
+
+.addons__amount {
+  color: var(--purplish-blue);
+}
+
+@media screen and (max-width: 780px) {
+  .addons__form label {
+    padding: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .addons__form {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .addons__form label {
+    padding: 1rem;
+  }
 }
